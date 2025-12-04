@@ -1,7 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1" # Set your desired region
+  region = "ap-south-2" # Hyderabad
 }
+
 
 # Fetch the first two available Availability Zones
 data "aws_availability_zones" "available" {
